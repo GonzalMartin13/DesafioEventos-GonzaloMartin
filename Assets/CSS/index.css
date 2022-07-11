@@ -1,0 +1,75 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+.bienvenida{
+    margin-top: 10px;
+    height: 200px;
+    padding: 10px 5px;
+/*     border: 5px solid black  ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.registroInterno{
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px 5px;
+/*     border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botonCliente{
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 5px black double;
+    width: 80%;
+    background-color: rgba(216, 211, 211, 0.771);
+    color: black;
+}
+
+.botonInterno{
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 5px black double;
+    width: 80%;
+    background-color: rgba(216, 211, 211, 0.771);
+    color: black;
+}
+
+.botonID{
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 5px black double;
+    width: 80%;
+    background-color: rgba(216, 211, 211, 0.771);
+    color: black;
+}
+
+#ingresoID{
+    background-color: aliceblue;
+    width: 80%;
+    text-align: center;
+    color: black;
+}
+
+.error{
+    text-align: center;
+    background-color: red;
+}
+
+.InternoValido{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.none {
+    display: none;
+}

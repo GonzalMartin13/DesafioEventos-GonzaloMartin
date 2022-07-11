@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Assets/CSS/index.css">    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid justify-content-around">
+            <a class="navbar-brand" href="#">
+                <i class="fa-duotone fa-loveseat"> La Tienda Del Mueble </i></a>
+        </div>
+    </nav>
+    <div class="conteiner row justify-content-around" id="Ingreso">
+        <div class="col-md-4 bienvenida" id="registro">
+            <h3>Bienvenido a la Tienda del Mueble</h3>
+            <label for="bienvenida"> Que eres?</label>
+            <button class="botonCliente" id="cliente"> Cliente (no hace nada) </button>
+            <button class="botonInterno" id="empleado"> Operador (este si) </button>
+        </div>
+<!--         <div class="col-md-4 registroInterno" id="logeo">
+            <h3>Ingrese sus datos</h3>
+            <label class="mb-2" for="ID"> Cual es su ID</label>
+            <input type="text" placeholder="ID" id="ingresoID" value="">
+            <button class="botonID" id="verificarID"> Ingresar </button>
+        </div> -->
+    </div>
+
+    <div class="none" id="error">
+        <h3>ERROR EN EL INGRESO, VUELVA A INTENTAR</h3>
+    </div>
+
+    <div class="none" id="InternoValido">
+        <h3>Bienvenido (nombre)</h3>
+    </div>
+
+    <script src="/JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
